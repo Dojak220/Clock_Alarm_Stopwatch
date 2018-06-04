@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity divisorF is
+	port(clock : in std_logic;
+			clock_out : out std_logic);
+end divisorF;
+
+architecture divisorF of divisorF is
+signal contador: integer := 0;
+signal estado : std_logic;
+begin
+	process(clock)
+	begin
+		if(clock'event and clock ='1') then
+			if (contador =50000000) then 
+				estado <= '1';
+				contador <= 0;
+			else 
+				estado <= '0';
+				contador <= contador + 1;
+			end if;
+		end if;
+	end process;	
+	 clock_out<= estado;
+end divisorF;

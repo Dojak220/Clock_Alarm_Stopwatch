@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Aluno\Desktop\TimeCDT\simulation\qsim
+vRelogio
+Z1 ISD8KPX0Ua0>6YT@:Oe]742
+Z2 V0c_GdE9RzJTSDVg0aHAJU0
+Z3 dC:\Users\Aluno\Desktop\TimeCDT\simulation\qsim
+Z4 w1527695104
+Z5 8Relogio.vo
+Z6 FRelogio.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -work|work|Relogio.vo|
+Z9 o-work work -O0
+Z10 n@relogio
+!i10b 1
+Z11 !s100 Mo=BU`?>;@0ETdN8SzWho2
+!s85 0
+Z12 !s108 1527695104.902000
+Z13 !s107 Relogio.vo|
+!s101 -O0
+vRelogio_vlg_check_tst
+!i10b 1
+Z14 !s100 3a?[BM_M5120;_U431oPV1
+Z15 I1?z@]>co_7[SlZ@PU3B9A2
+Z16 V[Zi6MkhV[<X]inE;GIR0k2
+R3
+Z17 w1527695103
+Z18 8Relogio.vt
+Z19 FRelogio.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z20 !s108 1527695105.077000
+Z21 !s107 Relogio.vt|
+Z22 !s90 -work|work|Relogio.vt|
+!s101 -O0
+R9
+Z23 n@relogio_vlg_check_tst
+vRelogio_vlg_sample_tst
+!i10b 1
+Z24 !s100 XAcz:hEPV]i^1lGhnXkLV0
+Z25 I25dT<_R]l]ELL^K=IH:^42
+Z26 V==`dD09>JTo<YW@KDHdYG1
+R3
+R17
+R18
+R19
+L0 29
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z27 n@relogio_vlg_sample_tst
+vRelogio_vlg_vec_tst
+!i10b 1
+Z28 !s100 :o7ZB5RalD3e;Um<dTfR43
+Z29 IO9MY;C_@Q?lSX`1GVmamM0
+Z30 VYgQaNLX3m7:=F9J3>kW`71
+R3
+R17
+R18
+R19
+Z31 L0 259
+R7
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R9
+Z32 n@relogio_vlg_vec_tst
